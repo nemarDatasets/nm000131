@@ -1,0 +1,40 @@
+{
+	"Name": "Wang2021Combined",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC BY 4.0",
+	"Authors": [
+		"Lu Wang",
+		"Zhenhao Zhang",
+		"Dan Han",
+		"Zhijun Zhang",
+		"Zhifang Liu",
+		"Wei Liu"
+	],
+	"ReferencesAndLinks": [
+		"https://zenodo.org/records/18873228"
+	],
+	"DatasetDOI": "doi:10.1111/ejn.15030",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1111/ejn.15030",
+			"URL": "https://zenodo.org/records/18873228"
+		}
+	],
+	"Keywords": [
+		"healthy",
+		"visual",
+		"perception",
+		"ssvep"
+	],
+	"PublicationYear": 2021
+}

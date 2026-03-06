@@ -1,0 +1,76 @@
+_dataset:
+  class: Wang2021Combined
+  code: Wang2021Combined
+  doi: 10.1111/ejn.15030
+  interval:
+  - 0.0
+  - 5.0
+  n_subjects: 8
+  paradigm: ssvep
+acquisition:
+  channel_types:
+    eeg: 32
+  hardware: eego mylab (ANT Neuro)
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 32
+  sampling_rate: 1000.0
+bci_application:
+  environment: lab
+data_structure:
+  n_blocks: 2
+documentation:
+  country: CN
+  data_url: https://zenodo.org/records/18873228
+  doi: 10.1111/ejn.15030
+  institution: Shandong University
+  investigators:
+  - Lu Wang
+  - Zhenhao Zhang
+  - Dan Han
+  - Zhijun Zhang
+  - Zhifang Liu
+  - Wei Liu
+  license: CC BY 4.0
+  publication_year: 2021
+  repository: Zenodo
+  senior_author: Zhijun Zhang
+experiment:
+  class_labels:
+  - '14.17'
+  - '12.14'
+  - '9.44'
+  - '7.73'
+  feedback_type: none
+  mode: offline
+  n_classes: 4
+  paradigm: ssvep
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: overlapping SSVEP arrows (CRT 85 Hz)
+  study_design: One-to-two combined SSVEP with overlapping stimuli
+  synchronicity: synchronous
+  task_type: covert_attention
+  trial_duration: 5.0
+file_format: CNT
+paradigm_specific:
+  detected_paradigm: ssvep
+  stimulus_frequencies_hz:
+  - 14.17
+  - 12.14
+  - 9.44
+  - 7.73
+participants:
+  health_status: healthy
+  n_subjects: 8
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - visual
+  pathology:
+  - healthy
+  type:
+  - perception
