@@ -1,5 +1,5 @@
 {
-	"Name": "Wang2021Combined",
+	"Name": "Combined SSVEP dataset with single stimulus location for two inputs",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -15,7 +15,6 @@
 	"ReferencesAndLinks": [
 		"https://zenodo.org/records/18873228"
 	],
-	"DatasetDOI": "doi:10.1111/ejn.15030",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
