@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
+  "title": "Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs",
+  "description": "A derivative EEG dataset implementing a combined steady-state visual evoked potential (SSVEP) brain-computer interface paradigm with spatially overlapping stimuli presented at a single location. The dataset comprises 8 healthy subjects performing a covert attention task to discriminate four arrow directions (up, down, left, right) flickering at distinct frequencies (7.73–14.17 Hz) derived from an 85 Hz CRT refresh rate. EEG signals were recorded at 1000 Hz using a 32-channel ANT Neuro system across two experimental schemes examining different attentional mechanisms.",
+  "methods_description": "EEG data were acquired at 1000 Hz sampling rate using a 32-channel ANT Neuro eego mylab amplifier with standard 1005 montage. Each trial consisted of 500 ms fixation, 500 ms cue, and 5000 ms stimulation periods. Stimuli were overlapping SSVEP arrows presented at a single location on a CRT monitor (85 Hz refresh rate), with four frequency classes: 14.17 Hz, 12.14 Hz, 9.44 Hz, and 7.73 Hz.",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Lu Wang": {},
     "Zhenhao Zhang": {},
@@ -16,45 +21,6 @@
     "Zhifang Liu": {},
     "Wei Liu": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1111/ejn.15030",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000131",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000131",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "Combined SSVEP dataset with single stimulus location for two inputs",
-  "license": "CC BY 4.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "2.8 GB (24 files)"
-  ],
-  "formats": [
-    ".html",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yaml",
-    ".yml"
-  ],
-  "description": "This dataset comprises steady-state visual evoked potential (SSVEP) recordings from 8 healthy participants performing a covert attention task with overlapping visual stimuli at four distinct frequencies (14.17, 12.14, 9.44, and 7.73 Hz). EEG data were acquired at 1000 Hz using 31 channels with a single stimulus location presentation paradigm designed for brain-computer interface applications. The dataset represents a derivative resource processed through the Mother of All BCI Benchmarks (MOABB) framework.",
-  "methods_description": "EEG data were recorded from 8 healthy subjects at a sampling rate of 1000 Hz using 31 EEG channels and 2 EOG channels with standard 1005 montage. Stimuli were presented on a CRT monitor at 85 Hz refresh rate with four SSVEP frequencies (14.17, 12.14, 9.44, 7.73 Hz) in an overlapping arrow presentation format. Each trial lasted 5 seconds with 2 blocks per session. Recording hardware was eego mylab (ANT Neuro) with 50 Hz line frequency.",
   "keywords": [
     {
       "term": "SSVEP"
@@ -73,19 +39,51 @@
     },
     {
       "term": "visual perception"
-    },
-    {
-      "term": "overlapping stimuli"
-    },
-    {
-      "term": "multi-frequency SSVEP"
-    },
-    {
-      "term": "MOABB"
-    },
-    {
-      "term": "BIDS reformatting"
     }
   ],
-  "source_hash": "5776f3b811bb628558de56dad93b8aa92aebab4aa7c722cebb57330ac183fd0c"
+  "related_identifiers": [
+    {
+      "identifier": "10.1111/ejn.15030",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "2.8 GB (24 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "source_hash": "68ffc7b76f7c71c632c9103e28938b9ec413798ad7b965714dbf24f6230adc1d"
 }
