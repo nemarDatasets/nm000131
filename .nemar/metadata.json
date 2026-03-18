@@ -1,0 +1,91 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Lu Wang": {},
+    "Zhenhao Zhang": {},
+    "Dan Han": {},
+    "Zhijun Zhang": {
+      "orcid": "0000-0002-7194-8371",
+      "affiliations": [
+        {
+          "name": "Department of Psychology and Behavioral Sciences Zhejiang University Hangzhou China"
+        }
+      ]
+    },
+    "Zhifang Liu": {},
+    "Wei Liu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1111/ejn.15030",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Combined SSVEP dataset with single stimulus location for two inputs",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.8 GB (24 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises steady-state visual evoked potential (SSVEP) recordings from 8 healthy participants performing a covert attention task with overlapping visual stimuli at four distinct frequencies (14.17, 12.14, 9.44, and 7.73 Hz). EEG data were acquired at 1000 Hz using 31 channels with a single stimulus location presentation paradigm designed for brain-computer interface applications. The dataset represents a derivative resource processed through the Mother of All BCI Benchmarks (MOABB) framework.",
+  "methods_description": "EEG data were recorded from 8 healthy subjects at a sampling rate of 1000 Hz using 31 EEG channels and 2 EOG channels with standard 1005 montage. Stimuli were presented on a CRT monitor at 85 Hz refresh rate with four SSVEP frequencies (14.17, 12.14, 9.44, 7.73 Hz) in an overlapping arrow presentation format. Each trial lasted 5 seconds with 2 blocks per session. Recording hardware was eego mylab (ANT Neuro) with 50 Hz line frequency.",
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "steady-state visual evoked potential"
+    },
+    {
+      "term": "covert attention"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "overlapping stimuli"
+    },
+    {
+      "term": "multi-frequency SSVEP"
+    },
+    {
+      "term": "MOABB"
+    },
+    {
+      "term": "BIDS reformatting"
+    }
+  ],
+  "source_hash": "5776f3b811bb628558de56dad93b8aa92aebab4aa7c722cebb57330ac183fd0c"
+}
