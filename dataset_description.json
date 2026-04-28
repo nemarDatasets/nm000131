@@ -1,41 +1,43 @@
 {
-	"Name": "Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC BY 4.0",
-	"Authors": [
-		"Lu Wang",
-		"Zhenhao Zhang",
-		"Dan Han",
-		"Zhijun Zhang",
-		"Zhifang Liu",
-		"Wei Liu"
-	],
-	"ReferencesAndLinks": [
-		"https://zenodo.org/records/18873228"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.4.3"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1111/ejn.15030",
-			"URL": "https://zenodo.org/records/18873228"
-		}
-	],
-	"Keywords": [
-		"healthy",
-		"visual",
-		"perception",
-		"ssvep"
-	],
-	"PublicationYear": 2021,
-	"ExperimentName": "Wang2021",
-	"Description": "Combined SSVEP dataset with single stimulus location for two inputs.\n\n\nDataset summary:\n\n#Subj       8\n#Chan      32\n#Classes       4\n#Trials / class  varies\nTrials length     5 s\nFreq 1000 Hz\n#Sessions       1\n\n\nParticipants:\n\n- Population: healthy\n\n\nEquipment:\n\n- Amplifier: eego mylab (ANT Neuro)\n- Montage: standard_1005\n\n\nData Access:\n\n- DOI: 10.1111/ejn.15030\n- Data URL: https://zenodo.org/records/18873228\n- Repository: Zenodo\n\n\nExperimental Protocol:\n\n- Paradigm: ssvep\n- Task type: covert_attention\n- Feedback: none\n- Stimulus: overlapping SSVEP arrows (CRT 85 Hz)\n\nDataset from [1]_.\n\nThis dataset uses a one-to-two SSVEP paradigm where spatially overlapping\nstimuli are presented at the same location. Users attend to one of four\narrow directions (up, down, left, right), each flickering at a distinct\nfrequency derived from the 85 Hz CRT refresh rate.\n\n8 subjects are available across two experiments:\n\n- Experiment 1 (S01-S05): Scheme 1 (moving dot-formed arrows)\n- Experiment 2 (S06-S08): Scheme 2 (space-based attention) and\nScheme 3 (object-based attention)\n\nEEG was recorded at 1000 Hz with a 32-channel ANT Neuro system.\nEach trial consists of 500 ms fixation, 500 ms cue, and 5000 ms\nstimulation.\n\nWarnings\n--------\nThe Zenodo archive used by this adapter contains only 8 of the 20\nsubjects described in the paper. Subject numbering (S01-S08) is based\non alphabetical order of the original subject name prefixes.\n\nReferences\n----------\n.. [1] L. Wang, Z. Zhang, D. Han, Z. Zhang, Z. Liu, and W. Liu,\n\"Single stimulus location for two inputs: A combined brain-computer\ninterface based on Steady-State Visual Evoked Potential (SSVEP),\"\nEuropean Journal of Neuroscience, vol. 53, no. 3, pp. 861-875, 2021.\nDOI: 10.1111/ejn.15030"
+  "Name": "Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Lu Wang",
+    "Zhenhao Zhang",
+    "Dan Han",
+    "Zhijun Zhang",
+    "Zhifang Liu",
+    "Wei Liu"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/records/18873228"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1111/ejn.15030",
+      "URL": "https://zenodo.org/records/18873228"
+    }
+  ],
+  "Keywords": [
+    "healthy",
+    "visual",
+    "perception",
+    "ssvep"
+  ],
+  "PublicationYear": 2021,
+  "ExperimentName": "Wang2021",
+  "Description": "Combined SSVEP dataset with single stimulus location for two inputs.\n\n\nDataset summary:\n\n#Subj       8\n#Chan      32\n#Classes       4\n#Trials / class  varies\nTrials length     5 s\nFreq 1000 Hz\n#Sessions       1\n\n\nParticipants:\n\n- Population: healthy\n\n\nEquipment:\n\n- Amplifier: eego mylab (ANT Neuro)\n- Montage: standard_1005\n\n\nData Access:\n\n- DOI: 10.1111/ejn.15030\n- Data URL: https://zenodo.org/records/18873228\n- Repository: Zenodo\n\n\nExperimental Protocol:\n\n- Paradigm: ssvep\n- Task type: covert_attention\n- Feedback: none\n- Stimulus: overlapping SSVEP arrows (CRT 85 Hz)\n\nDataset from [1]_.\n\nThis dataset uses a one-to-two SSVEP paradigm where spatially overlapping\nstimuli are presented at the same location. Users attend to one of four\narrow directions (up, down, left, right), each flickering at a distinct\nfrequency derived from the 85 Hz CRT refresh rate.\n\n8 subjects are available across two experiments:\n\n- Experiment 1 (S01-S05): Scheme 1 (moving dot-formed arrows)\n- Experiment 2 (S06-S08): Scheme 2 (space-based attention) and\nScheme 3 (object-based attention)\n\nEEG was recorded at 1000 Hz with a 32-channel ANT Neuro system.\nEach trial consists of 500 ms fixation, 500 ms cue, and 5000 ms\nstimulation.\n\nWarnings\n--------\nThe Zenodo archive used by this adapter contains only 8 of the 20\nsubjects described in the paper. Subject numbering (S01-S08) is based\non alphabetical order of the original subject name prefixes.\n\nReferences\n----------\n.. [1] L. Wang, Z. Zhang, D. Han, Z. Zhang, Z. Liu, and W. Liu,\n\"Single stimulus location for two inputs: A combined brain-computer\ninterface based on Steady-State Visual Evoked Potential (SSVEP),\"\nEuropean Journal of Neuroscience, vol. 53, no. 3, pp. 861-875, 2021.\nDOI: 10.1111/ejn.15030",
+  "DatasetDOI": "10.82901/nemar.nm000131",
+  "Version": "1.0.0"
 }
