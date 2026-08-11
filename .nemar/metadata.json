@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs",
-  "description": "A derivative EEG dataset implementing a combined steady-state visual evoked potential (SSVEP) brain-computer interface paradigm with spatially overlapping stimuli presented at a single location. The dataset comprises 8 healthy subjects performing a covert attention task to discriminate four arrow directions (up, down, left, right) flickering at distinct frequencies (7.73–14.17 Hz) derived from an 85 Hz CRT refresh rate. EEG signals were recorded at 1000 Hz using a 32-channel ANT Neuro system across two experimental schemes examining different attentional mechanisms.",
-  "methods_description": "EEG data were acquired at 1000 Hz sampling rate using a 32-channel ANT Neuro eego mylab amplifier with standard 1005 montage. Each trial consisted of 500 ms fixation, 500 ms cue, and 5000 ms stimulation periods. Stimuli were overlapping SSVEP arrows presented at a single location on a CRT monitor (85 Hz refresh rate), with four frequency classes: 14.17 Hz, 12.14 Hz, 9.44 Hz, and 7.73 Hz.",
+  "description": "A derivative EEG dataset implementing a combined steady-state visual evoked potential (SSVEP) brain-computer interface paradigm with spatially overlapping stimuli presented at a single location. Data from 8 healthy subjects were recorded at 1000 Hz using a 32-channel ANT Neuro system during a covert attention task with four directional arrow stimuli flickering at distinct frequencies (14.17, 12.14, 9.44, and 7.73 Hz). The dataset encompasses two experimental schemes examining moving dot-formed arrows and space-based versus object-based attention mechanisms.",
+  "methods_description": "EEG was recorded from 8 healthy subjects at 1000 Hz sampling rate using a 32-channel ANT Neuro eego mylab amplifier with standard 1005 montage. Each trial consisted of 500 ms fixation, 500 ms cue, and 5000 ms stimulation periods. Subjects attended to one of four arrow directions (up, down, left, right), each flickering at a distinct frequency derived from an 85 Hz CRT refresh rate. Two experimental schemes were employed: Scheme 1 (moving dot-formed arrows, subjects S01-S05) and Schemes 2-3 (space-based and object-based attention, subjects S06-S08).",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -53,11 +53,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000131",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -66,6 +61,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000131",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -74,9 +74,10 @@
     "eeg"
   ],
   "sizes": [
-    "2.8 GB (24 files)"
+    "5.7 GB (46 files)"
   ],
   "formats": [
+    ".cnt",
     ".html",
     ".json",
     ".md",
@@ -85,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "68ffc7b76f7c71c632c9103e28938b9ec413798ad7b965714dbf24f6230adc1d"
+  "source_hash": "346c77607a71a9066ea29165a1783d71f05123e11373b796730c6fc3ff66810a"
 }
