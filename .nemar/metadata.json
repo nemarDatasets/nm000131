@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2021 – Combined SSVEP dataset with single stimulus location for two inputs",
-  "description": "A derivative EEG dataset implementing a combined steady-state visual evoked potential (SSVEP) brain-computer interface paradigm with spatially overlapping stimuli presented at a single location. Data from 8 healthy subjects were recorded at 1000 Hz using a 32-channel ANT Neuro system during a covert attention task with four directional arrow stimuli flickering at distinct frequencies (14.17, 12.14, 9.44, and 7.73 Hz). The dataset encompasses two experimental schemes examining moving dot-formed arrows and space-based versus object-based attention mechanisms.",
-  "methods_description": "EEG was recorded from 8 healthy subjects at 1000 Hz sampling rate using a 32-channel ANT Neuro eego mylab amplifier with standard 1005 montage. Each trial consisted of 500 ms fixation, 500 ms cue, and 5000 ms stimulation periods. Subjects attended to one of four arrow directions (up, down, left, right), each flickering at a distinct frequency derived from an 85 Hz CRT refresh rate. Two experimental schemes were employed: Scheme 1 (moving dot-formed arrows, subjects S01-S05) and Schemes 2-3 (space-based and object-based attention, subjects S06-S08).",
+  "description": "A derivative EEG dataset implementing a combined steady-state visual evoked potential (SSVEP) brain-computer interface paradigm with spatially overlapping stimuli presented at a single location. The dataset comprises 8 healthy subjects performing a covert attention task to discriminate four arrow directions (up, down, left, right) flickering at distinct frequencies (7.73–14.17 Hz) derived from an 85 Hz CRT refresh rate. EEG was recorded at 1000 Hz using a 32-channel ANT Neuro system across two experimental schemes examining different attentional mechanisms.",
+  "methods_description": "EEG data were acquired at 1000 Hz sampling rate using a 32-channel ANT Neuro eego mylab amplifier with standard 10-05 electrode montage. Each trial consisted of a 500 ms fixation period, 500 ms cue presentation, and 5000 ms stimulus presentation. Participants attended to one of four overlapping SSVEP arrow stimuli flickering at frequencies of 14.17, 12.14, 9.44, and 7.73 Hz.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -32,13 +32,13 @@
       "term": "EEG"
     },
     {
-      "term": "steady-state visual evoked potential"
+      "term": "visual evoked potentials"
     },
     {
       "term": "covert attention"
     },
     {
-      "term": "visual perception"
+      "term": "steady-state visual evoked potential"
     }
   ],
   "related_identifiers": [
@@ -86,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "346c77607a71a9066ea29165a1783d71f05123e11373b796730c6fc3ff66810a"
+  "source_hash": "9dabd04c7871099d1a2caa4edaa98bb24feb3c0ff077202b0dde9a136d25a272"
 }
